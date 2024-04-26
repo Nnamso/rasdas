@@ -1,0 +1,123 @@
+.vectorIcon {
+  height: 54.9px;
+  width: 54.9px;
+  position: relative;
+}
+.vectorWrapper {
+  width: 96px;
+  height: 96px;
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 48px);
+  right: -17px;
+  border-radius: 2468.57px;
+  background-color: var(--secondary-green-main);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.03;
+  z-index: 0;
+}
+.frameChild {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--primary-purple-main);
+}
+.financeIcon {
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  margin: 0 !important;
+  top: 4px;
+  left: 4px;
+  z-index: 1;
+}
+.ellipseParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.todaysPayment {
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+}
+.b {
+  position: relative;
+  font-size: var(--desktop-h1-size);
+  line-height: 32px;
+  color: var(--text-header);
+  z-index: 1;
+  margin-top: -4px;
+}
+.todaysPaymentParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.trendingUpIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+.increaseFromLast {
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+}
+.trendingUpParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 0 0 var(--padding-89xl);
+  gap: var(--gap-9xs);
+  font-size: var(--font-size-5xs);
+}
+.frameContainer {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.frameContainer,
+.frameGroup,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.frameParent {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-ghostwhite-100);
+  border: 1px solid var(--primary-purple-main);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: space-between;
+  padding: var(--padding-4xs) var(--padding-2xs);
+  position: relative;
+  min-height: 108px;
+  text-align: left;
+  font-size: var(--font-size-4xs);
+  color: var(--text-body);
+  font-family: var(--regular);
+}
+@media screen and (max-width: 450px) {
+  .b {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+}

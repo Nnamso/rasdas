@@ -1,0 +1,38 @@
+.conditionFunction {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-5xs) var(--br-5xs) 0 0;
+  background-color: var(--color-orange);
+}
+.component61,
+.component61Wrapper {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.component61Wrapper {
+  padding: 0 var(--padding-11xs) 0 var(--padding-11xs-7);
+}
+.distribution {
+  position: relative;
+  line-height: 20px;
+}
+.windowFunctionWithKey {
+  height: 223px;
+  flex: 0.8571;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs-4);
+  box-sizing: border-box;
+  gap: var(--gap-4xs);
+  text-align: center;
+  font-size: var(--desktop-labels-small-label-size);
+  color: var(--text-body);
+  font-family: var(--regular);
+}
